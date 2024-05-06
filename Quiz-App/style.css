@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    font-family: sans-serif;
+    background: linear-gradient(115deg, rgba(2, 36, 46, 0.8),rgba(69, 161, 107, 0.5));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.head{
+    padding:3% 0% 3% 0%; 
+}
+h1{
+        text-align: center;
+        padding: 0.8rem 0;
+        font-size: 3rem;
+        color: rgb(49,70,7);
+        background: rgba(105,224,90,0.55);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        border-radius: 5rem;
+}
+.timer{
+    font-size: 25px;
+    text-align: center;
+    color: rgba(93,53,156,0.98);
+    border-radius: 20px;
+    background: rgba(0,255,221,0.45);
+    margin: 0% 45% 0% 45%;
+    font-weight: 700;
+}
+#ques{
+    padding: 2rem;
+    cursor: default;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.849);
+    font-size: 20px;
+}
+#ques{
+    margin-bottom: 1rem;
+}
+.option{
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    border-bottom: solid 0.1rem blue;
+    width: 7rem;
+    background: rgb(101, 169, 144);
+    padding: 6px;
+    border-radius: 1rem;
+}
+.option:hover{
+    color: white;
+}
+.button{
+    text-align: center;
+}
+button{
+    padding: 0.2rem 1.5rem;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    border-radius: 1.5rem;
+    color: rgba(0, 0, 0, 0.98);
+    background: rgba(121, 215, 209, 0.82);
+}
+button:active{
+    background: lavender;
+}
+
+.main{
+    display: block;
+    border-radius: 1rem;
+    position: relative;
+    padding: 0 1.5rem;
+    margin-top: 1.5rem;
+    background: rgba(0,255,221,0.45);
+    border-radius: 1rem;
+    margin: 3rem auto;
+    width: 90vw;
+
+}
